@@ -9,6 +9,8 @@ This is a tailwind css set of angular components which makes faster and imporves
 ## Usage
 
 ```typescript
+test.component.ts
+
 //Import Flex and Grid Components To Your Custom Component's .ts file
 import { Component } from '@angular/core';
 import { FlexComponent } "../flex/flex.component";
@@ -27,6 +29,8 @@ export class MenuComponent {
 ```
 
 ```html
+test.component.html
+
 <div grid-wrapper [columns]="2" items="center" gapX="5">
     <div flex-wraper [columns]="true" justify="center">
          <h1>This is A test</h1>
